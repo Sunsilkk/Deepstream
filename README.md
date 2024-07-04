@@ -48,7 +48,7 @@ CUDA_VER=10.2 make -C nvdsinfer_custom_impl_Yolo
 ### 2. Start the application
 
 Edit the `config.txt` file according to your model
-You need to convert your pretrained model to onnx or you con found pretrained model in [NVIDIA DeepStream SDK on Jetson](https://developer.nvidia.com/embedded/deepstream-on-jetson-downloads-archived)
+You need to convert your pretrained model to onnx or you can find pretrained model in [NVIDIA DeepStream SDK on Jetson](https://developer.nvidia.com/embedded/deepstream-on-jetson-downloads-archived)
 
 ```
 [property]
@@ -91,7 +91,7 @@ GST_DEBUG=3 deepstream-app -c deepstream_app_config.txt
 ```
 
 
-In raspi4 install the [Mediamtx](https://github.com/bluenviron/mediamtx) to create a RTSP server and add the source camera to file yml like this.
+In raspi4, install the [Mediamtx](https://github.com/bluenviron/mediamtx) to create a RTSP server and add the source camera to file yml like this.
 
 ```sh
 paths:
